@@ -25,7 +25,7 @@ class AppwriteRepository private constructor(context: Context) {
 
     // Appwrite Client and Services
     private val client = Client(context.applicationContext)
-        .setProject(AppwriteConfig.APPWRITE_PROJECT_ID)
+        .setProject("6857554f0035e2e9126c")
         .setEndpoint(AppwriteConfig.APPWRITE_PUBLIC_ENDPOINT)
 
     private val account: Account = Account(client)

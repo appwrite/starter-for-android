@@ -6,7 +6,7 @@ splashScreen = "1.2.0-alpha02"
 lifecycleRuntimeKtx = "2.8.7"
 activityCompose = "1.10.0"
 composeBom = "2025.01.01"
-appwrite = "7.0.0"
+appwrite = "31.2.0"
 
 [libraries]
 appwrite = { group = "io.appwrite", name = "sdk-for-android", version.ref = "appwrite" }
